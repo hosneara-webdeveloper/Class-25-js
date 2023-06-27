@@ -49,7 +49,7 @@ let am = h >= 12 ? "AM" : "PM"
 hourS.innerHTML = h;
 minuteS.innerHTML = m;
 secondS.innerHTML = s;
-ampm.innerHTML = am;
+ampm.innerText = am;
 
 
  
